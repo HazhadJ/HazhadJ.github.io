@@ -1,0 +1,127 @@
+body {
+    background-color: #0b374f;
+    font-family: "Quicksand", sans-serif;
+}
+
+#intro {
+    color: white;
+    height: 100vh;
+    /* border: 1px solid white; */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#intro h1 {
+    font-family: "Jaro", sans-serif;
+    font-size: 96px;
+    animation: fadein ease-in 1s;
+}
+
+#intro code {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    #into h1 {
+        font-size: 48px;
+    }
+}
+
+#intro h3 {
+    margin-top: 20px;
+}
+
+#intro h3 {
+    animation-delay: 1s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+#intro code {
+    margin-top: 20px;
+    font-size: 30px;
+    animation-delay: 3s;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#arrowDown {
+    font-size: 75px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 37.5px);
+}
+
+#about {
+    color: whitesmoke;
+    background-color: #ff214a;
+    padding: 30px;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+#contact {
+    background-color: #c46738;
+    color: whitesmoke;
+    padding: 30px;
+
+    .row {
+        margin-bottom: 15px;
+    }
+    a {
+        color: whitesmoke;
+    }
+    input,
+    textarea {
+        padding: 10px;
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+#portfolio {
+    padding: 30px;
+    background-color: #5e66b5;
+    color: whitesmoke;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#about,
+#contact,
+#portfolio,
+section {
+    box-shadow: -10px 0px 25px #01161e;
+}
+
+.bg-dark {
+    background-color: #01161e !important;
+}
+
+#project {
+    background-color: #124559;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+.badge {
+    background-color: black;
+    margin-right: 5px;
+}
